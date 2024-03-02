@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Office Add-in</title>
+    <!-- 引入样式表 -->
+    <link rel="stylesheet" href="Home.css" type="text/css" />
+    <!-- 引入Office JavaScript API库 -->
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <!-- 引入自定义脚本 -->
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+<body class="ms-font-m ms-welcome">
+    <div id="content-header">
+        <div class="padding">
+            <h1>Welcome to My Office Add-in</h1>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="padding">
+            <p>Select a range of cells and click the button below to set the color to green.</p>
+            <br />
+            <h3>Try it out</h3>
+            <button class="ms-Button" id="set-color">Set color to Green</button>
+        </div>
+    </div>
+</body>
+</html>
