@@ -1,0 +1,6 @@
+name: Example Workflow
+on: [push]
+jobs:
+  build:
+    runs-on: self-hosted
+    # Your workflow steps go here
